@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<!-- [if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""><![endif] -->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang=""><![endif]-->
+<!-- [if IE 8]> <html class="no-js lt-ie9" lang=""> <![endif] -->
+<!-- [if gt IE 8]>--><html class="no-js" lang="fr-FR"><!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" value="" />
+	<link rel="shortcut icon" type="image/png" href="./resources/images/yk-logo.png" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+
+
+	<link rel="stylesheet" type="text/css" href="./resources/jquery/bootstrap-3.3.4/bootstrap.min.css"/ >
+	<link rel="stylesheet" type="text/css" href="./resources/jquery/reset.css">
+	<link rel="stylesheet" type="text/css" href="./resources/jquery/border-sizing.css">
+	<link rel="stylesheet" type="text/css" href="./resources/jquery/jquery.bxslider.min.css">
+	
+ 	<link rel="stylesheet" type="text/css" href="./resources/css/font.css">
+	<link rel="stylesheet" type="text/css" href="./resources/css/layout.css">
+	<link rel="stylesheet" type="text/css" href="./resources/css/modules.css">
+	<link rel="stylesheet" type="text/css" href="./resources/css/theme.css">
+	<link rel="stylesheet" type="text/css" href="./resources/css/state.css">
+	<link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+
+
+	<script type="text/javascript" src="./resources/javascript/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="./resources/javascript/jquery.bxslider.min.js"></script>
+	<script src="https://use.fontawesome.com/d1e621769b.js"></script>
+	
+	<title>Yves Kaercher Développeur/Intégrateur</title>
+
+</head>
+<body>
+<!--[if lte IE 9]>
+<p class="browsehappy">Vous utilisez un navigateur <strong>dépassé</strong>. Merci de <a href="http://browsehappy.com/">mettre à jour votre navigateur</a> pour améliorer votre expérience sur ce site.</p>
+<![endif]-->
+	<div class="wrapper">
+		<header>
+			<div id='logo'>
+				<a href='./index.php?page=home'><img src='./resources/images/yk-logo.png' alt='logo YK'/></a>
+				<h1>Yves <span>KAERCHER</span> <small>Développeur/Intégrateur</small></h1>
+			</div>
+			
+			<nav id='nav'>
+				<ul>
+					<li><a href='./index.php?page=home' class='home' > Accueil</a></li>
+					<li><a href='./index.php?page=page1' class='projets'>Projets</a></li>
+					<li><a href='./index.php?page=page2' class='contact'>Contact</a></li>
+					<?php if(!isset($user['username'])) {?>
+						<li><a href='./index.php?page=page3' class='login'>Login</a></li>
+					<?php } ?> 
+				</ul>
+			</nav>
+		</header>	
+		<main>
+			<section class="bloc3">
+				<div>
+					<h2>
+						Yves <span>KAERCHER</span><br/>
+						Développeur Web / <span>Intégrateur</span>
+					</h2>
+				</div>
+			</section>
+			<section class="bloc2">
+				<h3>Compétences</h3>
+				<div class="col"> 
+					<p>HTML5/CSS3</p> <progress max="100" value="90"></progress>
+					<p>PHP/MYSQL</p> <progress class="php" max="100" value="80"></progress>
+					<p>JAVASCRIPT</p> <progress max="100" value="70"></progress>
+					<p>JQUERY (UI)</p> <progress max="100" value="60"></progress>
+					<p>POO</p>	<progress max="100" value="60"></progress>
+					<p>RESPONSIVE DESIGN</p> <progress max="100" value="50"></progress>
+				</div>
+				<div class="col">
+					<p><img src="./resources/images/csshtmljss.png" /></p>
+					<p><img src="./resources/images/php2.png" /></p>
+					<p><img src="./resources/images/mysql1.png" /></p>
+					<p><img src="./resources/images/jquery1.png" /></p>
+				</div>
+			</section>
+			<section class="bloc1 parcour">
+				<h3>Parcour</h3>
+				<div>
+					
+					<p>
+						Issu d'une formation en Electronique, j'ai toujours orienté ma carrière vers l'informatique, si bien que j'ai créer ma propre entreprise en 1997 sous le nom Caisse Computer Système. J'ai démarré en installant des terminaux point de vente et j'ai continué de me former sur des systèmes plus complexes comme les serveurs de domaine des serveurs TSE pour administrer des réseaux. En 2007 la société change de nom et devient Crystal Informatique. Pendant 17 ans, au grès des besoins je me suis auto formé aux technologies de l'informatique.
+
+					</p>
+					<p>
+						Mon goût croissant pour ce domaine m'a amené à décider de me lancer dans le développement.
+						Dans ce but, j'ai opté pour une formation qualifiante à la :(<a  href="https://3wa.fr/">3W Académy</a>), afin de donner un cadre plus professionnel à mes connaissances, ainsi que découvrir certaines nouvelles technologies.
+					</p>
+					<p>
+						Aujourd’hui, j'ai enfin atteint mes objectifs qui étaient d'avoir un panel complet dans la métrise de l'informatique au service de l'entreprise.
+					</p>
+					
+				</div>
+			</section>
+			<section class="bloc1 scale CV">
+				<h3>CV</h3>
+				<div>
+					<a href="./resources/files/CV_Yves_Kaercher.pdf" target="_blank"><img src="./resources/images/CV.png" alt="CV"/></a>
+				</div>
+			</section>
+			<section class="bloc2 ">
+				<h3>Expériences Professionnelles</h3>
+					<ul class="bxslider">
+						<li>
+							<div class="col">
+								<a href="#" target="_blank">
+									<img style="width:60%;" class="img" src="./resources/images/ccs.jpg" alt="ccs"/>
+									<p  class="link" >www.caisse-computer.fr</p>
+								</a>	
+							</div>
+							<div class="col">
+									<h4 class="title">Caisse Computer Système</h4>
+									<p class="text">En 1997,en tant que gérant de la société,commercialisation de système d'encaissement pour le CHR vente de matériel informatique.</p>
+							</div>
+						</li>
+						<li>
+							<div class="col">
+								<a href="#" target="_blank">
+									<img style="width:60%;" class="img" src="./resources/images/crystal.jpg" alt="Crystal-Info"/>
+									<p  class="link" >www.cristal-info.fr</p>
+								</a>
+							</div>
+							<div class="col">
+								<h4 class="title">Crystal Informatique</h4>
+								<p class="text">En 2007, en tant que gérant de la société, vente, installation de matériel informatque (serveurs, virtualisation, postes clients, périfériques, VOIP, caméras IP etc...) Administration de réseau, distributeur de solution métier Sage.
+							</div>
+						</li>
+						<li>
+							<div class="col">
+									<a href="http://www.crisalid.com" target="_blank">
+										<img style="width:60%;" class="img" src="./resources/images/crisalid.png"/>
+										<p  class="link" >www.crisalid.com</p>
+									</a>
+							</div>
+							<div class="col">
+								<h4 class="title">Crisalid Alsace</h4>
+								<p class="text">En 2014, En charge du développement commercial des systèmes d'encaisssements dans le sector nord de l'Alsace </p>
+							</div>
+						</li>
+					</ul>
+			</section>
+		</main>
+		<footer>
+			<nav id='footer-nav'>
+				<ul>
+					<li><a href='./index.php?page=page1' class='projets'>Projets</a></li>
+					<li><a href='./index.php?page=page2' class='contact'>Contact</a></li>
+					<?php if(!isset($user['username'])) {?>
+					<li><a href='./index.php?page=page3' class='login'>Login</a></li>
+					<?php } ?>
+				</ul>
+			</nav>
+			<div id='footer-contact'>
+				<ul>
+					<li class='mail'><a href="mailto:ykaercher@gmail.com"> ykaercher@gmail.com</a></li>
+					<li class='tel'> 06 68 71 25 70</li>
+					<li class='LinkedIn'><a href="https://www.linkedin.com/in/yves-kaercher-70a475aa/" target="_blank"> LinkedIn</a></li>
+					<li>
+						<?php if(isset($user['username'])) {?>
+	                       	<h4>Bonjour : <?= htmlspecialchars($user['username']) ?>
+	                        <button><a href="apps/sign-out.php">Se déconnecter</a></button></h4>
+                    	<?php } ?>
+                    </li>
+				</ul>
+			</div>
+			<div id='footer-copyright'>
+				<p class='copyright'><i class="fa fa-copyright" aria-hidden="true"></i>2017</p>
+			</div>
+		</footer>
+	</div>
+		<script type="text/javascript" src="./resources/javascript/script.js"></script>
+</body>
+</html>

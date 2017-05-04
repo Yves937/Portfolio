@@ -1,0 +1,27 @@
+a:hover{
+	color: #98c86e;
+}
+
+
+
+/**** HEADER ****/
+#nav li:hover{
+	background-position: bottom center;
+}
+#nav li:hover a{
+	color: #98c86e;
+}
+/***** MAIN *****/
+.loupe:hover {
+  -webkit-transform: scale(1.02);
+      -ms-transform: scale(1.02);
+          transform: scale(1.02);
+}
+/**** FOOTER ****/
+#footer-nav li:hover{
+	background-position: bottom center;
+}
+
+.LinkedIn:hover a{  background-position: 0px -47px; }
+
+

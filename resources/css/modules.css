@@ -1,0 +1,239 @@
+img,
+iframe{
+	max-width: 100%;
+}
+
+
+/**** HEADER ****/
+
+/**** LOGO ****/
+
+#logo{
+	padding: 1em;
+}
+
+h1{
+	padding: 0 1em;
+	text-align: center;
+}
+
+h1 small	{ display: block; }
+
+#logo img	{ width: 3em; }
+
+@media screen and (min-width: 768px){
+	#logo img	{ width: 5em; }
+	h1			{ margin-top: 1em; }
+}
+@media screen and (min-width: 1137px){
+	#logo img	{ width: 6em; }
+	h1			{ margin-bottom: 1em; }
+}
+
+/**** NAV ****/
+#nav{
+	display: flex;
+}
+
+#nav ul{
+	display: flex;
+	flex: 1 1 100%;
+}
+
+#nav li{
+	display: flex;
+	flex: 1 1 100%;
+	margin: 0 1px;
+	text-align: center;
+	transition: all .25s ease-in-out;
+}
+
+#nav li{
+	margin: 0 1px;
+}
+
+#nav a {
+	flex: 1 1 100%;
+	padding: 1em 0;
+	transition: all .25s ease-in-out;
+}
+
+@media screen and (min-width: 768px){
+	nav a:before{
+		display: block;
+		padding: 0.8em 1em;
+	}
+}
+/**** MAIN ****/
+.bloc1>div,
+.bloc2>div,
+.bloc3>div,
+.col {
+	padding: 1em ;
+	text-align: center;
+}
+
+
+@media screen and (min-width: 768px){
+}
+
+	}
+@media screen and (min-width: 1137px){	
+	
+}
+
+
+/**** FOOTER ****/
+
+/**** FOOTER NAV****/
+#footer-nav{
+	display: flex;
+}
+
+#footer-nav ul{
+	display: flex;
+	flex: 1 1 100%;
+}
+
+#footer-nav li{
+	display: flex;
+	flex: 1 1 100%;
+	text-align: center;
+}
+
+#footer-nav a {
+	flex: 1 1 100%;
+	padding: 1em 0;
+	transition: all .25s ease-in-out;
+}
+
+/**** FOOTER CONTACT ****/
+#footer-contact{
+	padding: 1em;
+}
+
+/****COPYRIGHT****/
+#footer-copyright,
+.copyright{
+	text-align: center;
+}
+
+
+/**** PAGE ACCUEIL ****/
+
+
+/**** CV ****/
+.CV{
+	text-align: center;
+}
+.CV img{
+	max-height: 300px;
+}
+
+/**** COMPETENCES ****/
+progress
+{
+	width: 100%;
+	margin-bottom: 0.5em;
+}
+
+/*** EXPERIENCE ***/
+.link{
+	text-align: center;
+}
+.logo{
+	width: 100%;
+}
+
+.text{
+	margin-bottom: 0.5em;
+}
+
+li {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: top;
+}
+.bx-wrapper {
+	margin-bottom: 30px;
+	background: #1c1c1c;
+}
+
+.bx-wrapper img {
+	display: inline;
+	margin-left: 15px;
+}
+
+.bx-wrapper .bx-viewport {
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border:  none;
+	background: transparent;
+}
+
+.bx-wrapper .bx-pager {
+  padding-top: 0px;
+}
+
+.bx-controls {
+	position: relative;
+}
+
+.bx-wrapper .bx-controls-direction a {
+  margin-top: -20px;
+}
+
+.bx-wrapper .col{
+	width: 50%;
+}
+
+/**** PAGE CONTACT ****/
+
+
+.contact-form form div{
+	text-align: center;
+}
+
+#contact-form-submit{
+	padding-left: 5em ;
+}
+
+.contact-form input[type=text],
+.contact-form input[type=email],
+.contact-form textarea
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 15em;
+	max-width: 15em;
+	margin: 0.5em 0.5em;
+}
+
+.contact-form
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.contact-form span{
+	display: inline-block;
+	vertical-align: top;
+	width: 1em;
+	margin: 0.5em 0.5em;
+	vertical-align: top;
+}
+
+@media screen and (min-width: 768px){
+	.contact-form input[type=text],
+	.contact-form input[type=email],
+	.contact-form textarea
+	{
+		width: 20em;
+		max-width: 40em;
+	}
+}
+@media screen and (min-width: 1137px){	
+}
+
