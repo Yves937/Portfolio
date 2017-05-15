@@ -1,8 +1,5 @@
 $(document).ready(function(){
-	$('.bxslider').bxSlider({
-		auto: true,
-	});
-
+	
 	$("#contact_form").submit(function(event){
 		event.preventDefault();
 		var proceed = true;

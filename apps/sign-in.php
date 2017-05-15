@@ -43,7 +43,7 @@ if(array_key_exists('username', $_POST) AND array_key_exists('passwordHash', $_P
 				];
             //var_dump($user)
 				//	Redirection vers la page d'accueil
-			header('Location:../index.php?page=home');
+			header('Location:../index.php?page=page0');
 			exit();
 		}
 	

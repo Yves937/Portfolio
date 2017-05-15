@@ -1,10 +1,10 @@
 body {
 		background: url("../images/1.png");
-		-webkit-background-size: cover;
+		background-size: 100%;
+		/*-webkit-background-size: cover;*/
 		-moz-background-size: cover;
 		-o-background-size: cover;
-		background-size: cover;
-
+		
 
 		color: #AAAAAA;
 		font-family: 'open_sansregular', sans-serif;
@@ -28,6 +28,7 @@ h2 {
 }
 
 h3 {
+		margin-top: 0;
 		font-size: 150%;
 		line-height: 120%;
 		text-align: center;
@@ -182,7 +183,7 @@ footer a {
 
 /****COPYRIGHT****/
 #footer-copyright {
-	background-color: #141414;
+	background-color: black;
 }
 
 /****FOOTER CONTACT****/
@@ -252,12 +253,6 @@ progress::-moz-progress-bar {
 	background-color: #98c86e;
 	border-radius: 3px;
 }
-
-/*.ui-widget-content {
-  background: #555;
-}*/
-
-
 
 
 /****PAGE PROJETS****/

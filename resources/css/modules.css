@@ -10,6 +10,7 @@ iframe{
 
 #logo{
 	padding: 1em;
+	width: 632px;
 }
 
 h1{
@@ -70,7 +71,6 @@ h1 small	{ display: block; }
 .bloc3>div,
 .col {
 	padding: 1em ;
-	text-align: center;
 }
 
 
@@ -140,7 +140,8 @@ progress
 /*** EXPERIENCE ***/
 .link{
 	text-align: center;
-}
+/*	padding-left: 25px;
+*/}
 .logo{
 	width: 100%;
 }
@@ -154,39 +155,6 @@ li {
 	flex-flow: row wrap;
 	justify-content: space-between;
 	align-items: top;
-}
-.bx-wrapper {
-	margin-bottom: 30px;
-	background: #1c1c1c;
-}
-
-.bx-wrapper img {
-	display: inline;
-	margin-left: 15px;
-}
-
-.bx-wrapper .bx-viewport {
-	-moz-box-shadow: none;
-	-webkit-box-shadow: none;
-	box-shadow: none;
-	border:  none;
-	background: transparent;
-}
-
-.bx-wrapper .bx-pager {
-  padding-top: 0px;
-}
-
-.bx-controls {
-	position: relative;
-}
-
-.bx-wrapper .bx-controls-direction a {
-  margin-top: -20px;
-}
-
-.bx-wrapper .col{
-	width: 50%;
 }
 
 /**** PAGE CONTACT ****/
@@ -236,4 +204,7 @@ li {
 }
 @media screen and (min-width: 1137px){	
 }
-
+/*@media screen and (min-width: 768px) {
+	.text {width: 100px;}
+	.link {font-size: 0.5em;}
+*/}

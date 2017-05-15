@@ -11,12 +11,7 @@ a:hover{
 #nav li:hover a{
 	color: #98c86e;
 }
-/***** MAIN *****/
-.loupe:hover {
-  -webkit-transform: scale(1.02);
-      -ms-transform: scale(1.02);
-          transform: scale(1.02);
-}
+
 /**** FOOTER ****/
 #footer-nav li:hover{
 	background-position: bottom center;
@@ -24,4 +19,20 @@ a:hover{
 
 .LinkedIn:hover a{  background-position: 0px -47px; }
 
+@-webkit-keyframes textAnim {
+ from {
+    margin-right: 100%;
+    width: 0%;
+  }
+   
+   to {
+     margin-right: 0%;
+     width: 100%;
+   }
+}
+
+progress {
+  -webkit-animation: textAnim 1s ;
+  animation: textAnim 1s ;
+}
 

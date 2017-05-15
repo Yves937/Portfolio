@@ -24,4 +24,28 @@ a:hover{
 
 .LinkedIn:hover a{  background-position: 0px -47px; }
 
+/**** FOOTER ****/
+#footer-nav li:hover{
+	background-position: bottom center;
+}
+
+.LinkedIn:hover a{  background-position: 0px -47px; }
+
+@-webkit-keyframes textAnim {
+ from {
+    margin-right: 100%;
+    width: 0%;
+  }
+   
+   to {
+     margin-right: 0%;
+     width: 100%;
+   }
+}
+
+progress {
+  -webkit-animation: textAnim 1s ;
+  animation: textAnim 1s ;
+}
+
 
