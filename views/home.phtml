@@ -3,25 +3,7 @@
 <!--[if lte IE 9]>
 <p class="browsehappy">Vous utilisez un navigateur <strong>dépassé</strong>. Merci de <a href="http://browsehappy.com/">mettre à jour votre navigateur</a> pour améliorer votre expérience sur ce site.</p>
 <![endif]-->
-	<div class="wrapper">
-		<header>
-			<div id='logo'>
-				<a href='./index.php?page=home'><img src='./resources/images/yk-logo.png' alt='logo YK'/></a>
-				<h1>Yves <span>KAERCHER</span> <small>Développeur/Intégrateur</small></h1>
-			</div>
-			
-			<nav id='nav'>
-				<ul>
-					<li><a href='./index.php?page=home' class='home' > Accueil</a></li>
-					<li><a href='./index.php?page=page1' class='projets'>Projets</a></li>
-					<li><a href='./index.php?page=page2' class='contact'>Contact</a></li>
-					<?php if(!isset($user['username'])) {?>
-						<li><a href='./index.php?page=page3' class='login'>Login</a></li>
-					<?php } ?> 
-				</ul>
-			</nav>
-		</header>	
-	<body>
+
 		<main>
 			<section class="bloc3">
 				<div>
@@ -118,32 +100,5 @@
 				</div>
 			</section>
 		</main>
-		<footer>
-			<nav id='footer-nav'>
-				<ul>
-					<li><a href='./index.php?page=page1' class='projets'>Projets</a></li>
-					<li><a href='./index.php?page=page2' class='contact'>Contact</a></li>
-					<?php if(!isset($user['username'])) {?>
-					<li><a href='./index.php?page=page3' class='login'>Login</a></li>
-					<?php } ?>
-				</ul>
-			</nav>
-			<div id='footer-contact'>
-				<ul>
-					<li class='mail'><a href="mailto:ykaercher@gmail.com"> ykaercher@gmail.com</a></li>
-					<li class='tel'> 06 68 71 25 70</li>
-					<li class='LinkedIn'><a href="https://www.linkedin.com/in/yves-kaercher-70a475aa/" target="_blank"> LinkedIn</a></li>
-					<li>
-						<?php if(isset($user['username'])) {?>
-	                       	<h4>Bonjour : <?= htmlspecialchars($user['username']) ?>
-	                        <button><a href="apps/sign-out.php">Se déconnecter</a></button></h4>
-                    	<?php } ?>
-                    </li>
-				</ul>
-			</div>
-			<div id='footer-copyright'>
-				<p class='copyright'><i class="fa fa-copyright" aria-hidden="true"></i>2017</p>
-			</div>
-		</footer>
-	</div>
+
 </body>

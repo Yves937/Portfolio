@@ -6,5 +6,14 @@
 		//	Démarrage de la session
 		session_start();
 		//	Génération d'un nouvel identifiant de session
-		session_regenerate_id();
+
+
+
+/*		include('includes/config.php');
+
+
+		*******Actualisation de la session...*********
+
+		include('includes/fonctions.php');
+*/
 	}

@@ -1,0 +1,345 @@
+body {
+	/*background-color: #CDF0F0;*/
+	background: url("../images/1.png");
+	width:80%;
+	margin: 0 auto;
+	color: #AAAAAA;
+	font-family: 'open_sansregular', sans-serif;
+}
+
+/*#banniere {
+	height:auto;
+	width:auto;
+	margin-left: 0.25%;
+}
+
+#banniere a img	{
+	width: 99.5%;
+	height: auto;
+}*/
+
+#menu {
+	padding-top: 7px;
+	padding-bottom: 3px;
+	background-color: rgba(20, 20, 20, 0.75);
+	-moz-box-shadow:    5px 5px 5px 2px rgba(20, 20, 20, 0.5);
+	-webkit-box-shadow: 5px 5px 5px 2px rgba(20, 20, 20, 0.5);
+	box-shadow:         5px 5px 5px 2px rgba(20, 20, 20, 0.5);
+	width: auto;
+	height: 40px;
+	line-height: 30px;
+	border: 1px solid #000000;
+}
+
+#colonne_gauche {
+	background-color: rgba(20, 20, 20, 0.75);
+	-moz-box-shadow:    5px 5px 5px 2px rgba(20, 20, 20, 0.5);
+	-webkit-box-shadow: 5px 5px 5px 2px rgba(20, 20, 20, 0.5);
+	box-shadow:         5px 5px 5px 2px rgba(20, 20, 20, 0.5);
+	width:15%;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	padding:0;
+	border: 1px solid #000000;
+	float: left;
+}
+
+#menu_droite {
+	text-align: right;
+}
+
+#contenu {
+	background-color: rgba(20, 20, 20, 0.75);
+	-moz-box-shadow:    5px 5px 5px 2px rgba(20, 20, 20, 0.5);
+	-webkit-box-shadow: 5px 5px 5px 2px rgba(20, 20, 20, 0.5);
+	box-shadow:         5px 5px 5px 2px rgba(20, 20, 20, 0.5);
+	margin-left: 16%;
+	margin-bottom:10px;
+	margin-right:0;
+	margin-top:5px;
+	padding:5px;
+	width:auto;
+	border: 1px solid #000000;
+	min-height:200px;
+}
+#pseudo {
+	margin-left: 144px;
+}
+#mdp{
+	margin-left: 101px;
+}
+#mail {
+	margin-left: 171px;
+}
+#mail_verif {
+	margin-left: 71px;
+}
+#date_naissance {
+	margin-left: 63px;
+}
+#mdp-co {
+	margin-left: 12px;
+}
+#footer {
+	background-color: rgba(20, 20, 20, 0.75);
+	-moz-box-shadow:    5px 5px 5px 2px rgba(20, 20, 20, 0.5);
+	-webkit-box-shadow: 5px 5px 5px 2px rgba(20, 20, 20, 0.5);
+	box-shadow:         5px 5px 5px 2px rgba(20, 20, 20, 0.5);
+	clear: both;
+	margin:0;
+	padding:5px;
+	width:auto;
+	text-align:center;
+	border:1px solid #000000;
+}
+
+#info {
+	width: 40%;
+	position: absolute;
+	top: 42%;
+	left: 30%;
+	border: 1px solid #000000;
+	background-color: #98c86e
+}
+
+#erreur {
+	text-align: center;
+	color: #EE0808;
+}
+
+#information {
+	text-align: center;
+	color: #08EE08;
+}
+
+/* ----------------------------------------------------------------------------- */
+
+h1 {
+	text-align:center;
+	text-decoration: underline;
+	color: white;
+	font-family:"trebuchet ms", verdana, sans-serif;
+	letter-spacing:1.2px;
+	font-variant:small-caps;
+	font-weight:bold;
+	font-size:22px;
+	margin-top:0;
+}
+
+a, a:visited {
+	color:#AAAAAA;
+	text-decoration:none;
+	padding-left: 5px;
+}
+
+a:hover, a:focus {
+	text-decoration:underline;
+	color:#98c86e;
+}
+
+a img	{
+	border: none;
+}
+.float {
+    display: block;
+    width:200px;
+    float:left;
+}
+
+.center {
+    text-align: center;
+}
+input[type="submit"], input[type="button"]	{
+	background-color: rgba(20, 20, 20, 0.75);
+	font-size: 200%;
+	color: #AAAAAA;
+	border: 1px outset black;
+	padding: 9px 9px;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+	background-color: #CDF0F0;
+	color: black;
+}
+table {
+        margin: auto;
+        margin-top: 10px;
+        border: 1px solid black;
+        text-align: center;
+        border-collapse: collapse;
+}
+
+th {
+        border: 1px solid black;
+        text-align: center;
+}
+
+td {
+        border: 1px solid black;
+        text-align: center;
+}
+
+.ligne_0 {
+        background-color: #dfe5f5;
+}
+
+.ligne_1 {
+        background-color: #edf1f8;
+}
+.actif {
+        color: blue;
+        font-weight: blod;
+}
+
+.inactif {
+        color: red;
+        font-weight: bold;
+}
+
+h2 {
+        text-align:center;
+        text-decoration: underline;
+        color: #507090;
+        font-family:"trebuchet ms", verdana, sans-serif;
+        letter-spacing:1.1px;
+        font-variant:small-caps;
+        font-weight:bold;
+        font-size:19px;
+        margin-top:0;
+}
+.profil_cellule_float {
+        float: left;
+        width: 47%;
+        border: 1px solid #CCDFEF;
+        max-height: 30%;
+        margin-bottom: 1%;
+        margin-left: 1%;
+        margin-right: 1%;
+        height: 250px;
+}
+
+.profil_cellule {
+        margin-left: 49%;
+        margin-bottom: 1%;
+        margin-right: 1%;
+        width: 47%;
+        border: 1px solid #CCDFEF;
+        height: 250px;
+}
+
+.profil_ligne {
+        width: 95%;
+        margin-left: 1%;
+        border: 1px solid #CCDFEF;
+        margin-bottom: 1%;
+}
+
+.avatar {
+        margin-left: 10%;
+        float: left;
+        min-width: 150px;
+        min-height: 130px;
+}
+
+h3 {
+        text-decoration: underline;
+        color: #507080;
+        font-family:"trebuchet ms", verdana, sans-serif;
+        font-variant:small-caps;
+        font-weight:bold;
+        font-size:17px;
+}
+
+.pseudo {
+	font-weight: bold;
+}
+
+table {
+        margin: auto;
+        margin-top: 10px;
+        border: 1px solid black;
+        text-align: center;
+        border-collapse: collapse;
+}
+
+th {
+        border: 1px solid black;
+        text-align: center;
+}
+
+td {
+        border: 1px solid black;
+        text-align: center;
+}
+
+.ligne_0 {
+        background-color: #dfe5f5;
+}
+
+.ligne_1 {
+        background-color: #edf1f8;
+}
+
+.actif {
+        color: blue;
+        font-weight: blod;
+}
+
+.inactif {
+        color: red;
+        font-weight: bold;
+}
+
+h2 {
+        text-align:center;
+        text-decoration: underline;
+        color: #507090;
+        font-family:"trebuchet ms", verdana, sans-serif;
+        letter-spacing:1.1px;
+        font-variant:small-caps;
+        font-weight:bold;
+        font-size:19px;
+        margin-top:0;
+}
+.profil_cellule_float {
+        float: left;
+        width: 47%;
+        border: 1px solid #CCDFEF;
+        max-height: 30%;
+        margin-bottom: 1%;
+        margin-left: 1%;
+        margin-right: 1%;
+        height: 250px;
+}
+
+.profil_cellule {
+        margin-left: 49%;
+        margin-bottom: 1%;
+        margin-right: 1%;
+        width: 47%;
+        border: 1px solid #CCDFEF;
+        height: 250px;
+}
+
+.profil_ligne {
+        width: 95%;
+        margin-left: 1%;
+        border: 1px solid #CCDFEF;
+        margin-bottom: 1%;
+}
+
+.avatar {
+        margin-left: 10%;
+        float: left;
+        min-width: 150px;
+        min-height: 130px;
+}
+
+h3 {
+        text-decoration: underline;
+        color: #507080;
+        font-family:"trebuchet ms", verdana, sans-serif;
+        font-variant:small-caps;
+        font-weight:bold;
+        font-size:17px;
+}

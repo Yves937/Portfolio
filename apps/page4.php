@@ -2,6 +2,6 @@
 
 // Ici donc les structures de contrôle...
 
-require('views/forms.phtml');
+require('membres/inscription.php');
 
 ?>
