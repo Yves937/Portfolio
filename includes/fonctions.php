@@ -73,10 +73,10 @@ function queries($num = 1)
 function connexionbdd()
 {
 	//Définition des variables de connexion à la base de données
-	$bd_nom_serveur='localhost';
-	$bd_login='root';
-	$bd_mot_de_passe='troiswa';
-	$bd_nom_bd='espace_membres';
+	$bd_nom_serveur='https://phpmyadmin.cluster023.hosting.ovh.net/';
+	$bd_login='yveskaerxh776';
+	$bd_mot_de_passe='Vectron67';
+	$bd_nom_bd='yveskaerxh776.mysql.db';
 
 	//Connexion à la base de données
 	mysql_connect($bd_nom_serveur, $bd_login, $bd_mot_de_passe);
