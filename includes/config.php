@@ -18,7 +18,7 @@ Aucune information/erreur
 --------------------------
 */
 
-define('ROOTPATH', 'http://'.$_SERVER['HTTP_HOST'].'/sites/Portfolio/', true);
+define('ROOTPATH', 'http://'.$_SERVER['HTTP_HOST'].'/sites/portfolio/', true);
 define('TITRESITE', 'Portfolio', true);
 $queries = 0;
 ?>

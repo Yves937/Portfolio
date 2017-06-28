@@ -23,6 +23,7 @@ Mot de passe de cookie incorrect
 L'id de cookie est incorrect
 --------------------------
 */
+echo $_SERVER['HTTP_HOST'];
 
 function sqlquery($requete, $number)
 {
@@ -73,8 +74,6 @@ function queries($num = 1)
 
 function connexionbdd()
 {
-
-
 	//Définition des variables de connexion à la base de données
 	$bd_nom_serveur='localhost';
         $bd_login='yveskaerxh776';
@@ -82,10 +81,11 @@ function connexionbdd()
 	$bd_nom_bd='yveskaerxh776';
 
 
-        //Connexion à la base de données
-        mysql_connect($bd_nom_serveur, $bd_login, $bd_mot_de_passe);
-        mysql_select_db($bd_nom_bd);
-        mysql_query("set names 'utf8'");
+
+	//Connexion à la base de données
+	mysql_connect($bd_nom_serveur, $bd_login, $bd_mot_de_passe);
+	mysql_select_db($bd_nom_bd);
+	mysql_query("set names 'utf8'");
 }
 
 

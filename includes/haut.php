@@ -53,7 +53,7 @@ Aucune information/erreur
 			if(isset($_SESSION['membre_id']))
 			{
 			?>
-				<a href="<?php echo ROOTPATH; ?>/membres/moncompte.php">Gérer mon compte</a>   <a href="<?php echo ROOTPATH; ?>/membres/deconnexion.php">Se déconnecter</a>
+				<a href="<?php echo ROOTPATH; ?>#">Gérer mon compte</a>   <a href="<?php echo ROOTPATH; ?>/membres/deconnexion.php">Se déconnecter</a>
 			<?php
 			}
 			else
